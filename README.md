@@ -1,94 +1,55 @@
-# Web3tionary# Web3tionary — A Community-Driven Dictionary for Web3
+# Web3tionary — A Living Dictionary of Web3 Words, Meanings & Movements
 
-**Web3tionary** is an open-source project building the first decentralized dictionary of Web3 terms, slang, and innovations.  
-Every entry is written, visualized, and timestamped by the community, stored on IPFS, and governed by **Web3tionaryDAO**.
-
----
-
-## ✍️ How it Works
-- **Contributors** submit new terms, phrases, or coined words.  
-- Each entry includes:  
-  - **Plain Definition** (everyday language)  
-  - **Technical Definition** (precise, blockchain/web3 context)  
-  - **Parable / Use Case** (relatable story or metaphor)  
-  - **Media Tie-in** (NFT image card, oversized dictionary page, or IPFS scroll)  
-- Entries are timestamped on-chain and owned via IPFS CIDs and Web3 domains.  
+**Web3tionary** is an open-source, community-built dictionary documenting the evolving language of Web3 — slang, coined terms, cultural phenomena, protocols, and future-shaping concepts. Entries are proposed, refined, and timestamped by the public, with final governance handled through **Web3tionaryDAO**.
 
 ---
 
-## 🌍 Governance
-- DAO format (**Web3tionaryDAO**) with tokenized voting for term acceptance.  
-- Reputation & credits for contributors whose entries are adopted.  
-- NFT mints of select entries fund hosting and DAO treasury.  
+## ✍️ How It Works
+
+- 🔤 **Submit a Term**  
+  Anyone can propose a new term via pull request using the entry template.
+
+- 🧠 **Multi-Dimensional Definitions**  
+  Each entry contains:
+  - **Plain Definition** (in everyday language)  
+  - **Technical Definition** (in Web3 context)  
+  - **Parable or Use Case** (short story, scenario, or metaphor)  
+  - **Media Tie-In** (oversized dictionary image, NFT card, IPFS scroll, etc.)  
+  - **Timestamp + Provenance** (IPFS CID, on-chain proof, GitHub commit)
+
+- 🧱 **Governance by DAO**  
+  Entries are voted in or revised by `W3T` token holders. Select entries may be minted as NFTs or featured in decentralized glossaries.
 
 ---
 
-## 🛠️ Infrastructure
-- IPFS for permanent storage of entries & visuals.  
-- Smart contracts lock timestamp & ownership.  
-- Domains like `web3tionary.crypto` or `web3tionary.blockchain` redirect to the living dictionary.  
+## 🔐 Founder’s Notes
+
+**Some entries — such as _Blockyright_ and _Traorelization_ — are reserved by the Web3tionary founder for early inclusion.** These terms represent foundational linguistic architecture for DAO vocabulary, protocol ethics, and provenance mechanisms.
+
+Proposed entries may be reviewed in stages (Prototype → Draft → Final). Community feedback and refinement are encouraged.
 
 ---
 
-## 📦 Contributing
-To add a new term, fork this repo and submit a pull request with the entry template below:
+## 🧩 Entry Template (for Contributors)
 
-Term: [Your Word Here]
+```yaml
+Term: [Insert your coined word or phrase here]
 
 Plain Definition:
+A clear explanation for the general public.
 
 Technical Definition:
+A precise definition contextualized within Web3.
 
-Parable / Use Case:
+Parable or Use Case:
+A relatable short story, scenario, or metaphor.
 
-Media (image, CID, or description):
+Media Tie-In:
+Describe or link to a visual — oversized page, NFT, CID, etc.
 
-Contributor Wallet / Handle:
+Contributor:
+Your wallet address or handle.
 
----
+Timestamp (optional):
+IPFS CID or contract ref.
 
----
-
-## 🚀 Roadmap
-1. Phase 1: Repo setup + entry template + DAO charter outline + visual mockups.  
-2. Phase 2: DAO token & voting contracts.  
-3. Phase 3: NFT editions + dictionary launch via decentralized domains.  
-
----
-
-## 🧩 Entry Template (for contributors)
-
-**Term:** [Insert new Web3 term]  
-
-**Plain Definition:** Explain in simple words.  
-
-**Technical Definition:** Formal definition in Web3 context.  
-
-**Parable / Use Case:** Short story or analogy (make it relatable).  
-
-**Media Tie-in:** NFT image, oversized page mockup, or IPFS scroll. Include CID or placeholder.  
-
-**Contributor:** Wallet address / handle for attribution.  
-
-**Timestamp (optional):** CID / contract ref.  
-
----
-
-## 📜 DAO Charter (Outline Draft)
-- **Membership:** Anyone holding `W3T` (Web3tionary Token) can vote.  
-- **Proposal Flow:**  
-  1. Contributor submits entry (pull request + CID).  
-  2. DAO members vote to accept/reject.  
-  3. Accepted entries are minted as NFTs (treasury earns %).  
-- **Voting Weights:**  
-  - 1 token = 1 vote.  
-  - Reputation credits (non-transferable) can boost voting power.  
-- **Treasury Use:**  
-  - Cover IPFS pinning fees.  
-  - Fund artists/writers for curated entries.  
-  - Bounties for underrepresented categories.  
-
----
-
-## 📖 License
-Open-source. Free to fork, contribute, and remix under a Creative Commons license.
