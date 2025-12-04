@@ -1,0 +1,168 @@
+# Web3tionary Workflow Map (v0.1)
+
+This document explains the complete lifecycle of a Web3tionary entry — from idea to archival storage.
+
+It ensures consistency across GitHub, IPFS, Reddit, and DAO governance.
+
+---
+
+# 1. Overview Diagram (Simple)
+
+
+---
+
+# 2. Detailed Stage Breakdown
+
+## Stage 1 — Idea Formation
+A contributor, founder, or community member invents or proposes a new Web3 term, phrase, or concept.
+
+Inputs may include:
+- real-world events  
+- cultural trends  
+- new domain purchases  
+- innovations  
+- metaphors  
+- critiques  
+- questions  
+
+---
+
+## Stage 2 — Template Completion
+Contributor downloads or copies:
+
+`Docs/ENTRY_TEMPLATE.md`
+
+They fill in:
+- Root Term  
+- Raw Form  
+- Expanded Form  
+- Definitions  
+- Parable / Use Case  
+- Provenance  
+- Creator  
+- Media (optional)  
+
+When ready, they proceed to submission.
+
+---
+
+## Stage 3 — GitHub Submission (Pull Request)
+Contributor creates a new markdown file:
+
+
+and submits a Pull Request (PR).
+
+PR must include:
+- Full entry template  
+- Clear commit message  
+- Any media links (CID, images, diagrams)  
+- Attribution  
+
+PR is now visible to all.
+
+---
+
+## Stage 4 — Optional Public Discussion
+Before DAO vote, the term may be discussed on:
+- Reddit  
+- GitHub Discussions  
+- Social media threads  
+
+Purpose:
+- refine meaning  
+- test cultural resonance  
+- gather parables  
+- observe community interpretations  
+
+These discussions may be summarized in the entry’s **DAO Notes**.
+
+---
+
+## Stage 5 — DAO Review
+DAO members (or founder during early stage):
+
+- verify clarity  
+- request edits  
+- check provenance  
+- check raw form accuracy  
+- evaluate cultural impact  
+- ensure the term belongs in the dictionary  
+
+If ready, they move to voting.
+
+---
+
+## Stage 6 — DAO Vote
+Outcomes:
+- **Accept**  
+- **Request Revision**  
+- **Reject**  
+
+Accepted terms go to the merge phase.  
+Drafts remain open until improved.
+
+Founder Entries may bypass voting if necessary.
+
+---
+
+## Stage 7 — Merge & Acceptance
+Once approved:
+- Entry is merged into `/Entries/`  
+- Marked “Accepted (Active)”  
+- Added to `Docs/Seed_Entries.md` (dictionary index)  
+
+This makes the term an official part of the Web3tionary.
+
+---
+
+## Stage 8 — IPFS Archival
+The entry and any visuals (dictionary page images, diagrams, NFT versions) are pinned to IPFS.
+
+Storage options:
+- individual CIDs  
+- multi-file bundles  
+- quarterly or annual dictionaries (“Volumes”)  
+
+The IPFS CID is added to the entry’s **Provenance** section.
+
+---
+
+## Stage 9 — Announcement & Visibility
+Approved terms may be:
+- featured in a Reddit announcement post  
+- shared on social channels  
+- minted as limited NFT cards  
+- added to a “recent additions” section  
+
+This helps the community track linguistic evolution.
+
+---
+
+# 3. Quick Summary Map
+
+
+---
+
+# 4. Notes & Responsibilities
+
+### Contributors:
+- Submit clean entries  
+- Follow template  
+- Provide provenance  
+- Respect cultural nuance  
+
+### DAO:
+- Maintain linguistic quality  
+- Respect creative freedom  
+- Enforce template rules  
+- Ensure consistency  
+
+### Founder:
+- Sets tone and philosophical direction  
+- Approves early foundational entries  
+- Interprets edge cases  
+- Protects project identity  
+
+---
+
+# End of Workflow Map v0.1
